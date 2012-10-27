@@ -1,0 +1,20 @@
+{
+  "name": "extend",
+  "version": "0.0.1",
+  "description": "Merge properties from a list of objects into one new object.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "expect.js": "~0.2.0"
+  },
+  "devDependencies": {
+    "expect.js": "~0.2.0",
+    "mocha": ">=1.6.0"
+  },
+  "scripts": {
+    "test": "mocha tests/*"
+  },
+  "license": "MIT"
+}
