@@ -1,5 +1,15 @@
 
+/*
+ * @exports extend
+*/
 
+/**
+  Extends a set of objects. Merges them into one new object
+  @public
+  @type Function
+  @param {Boolean} deep Should it extend all child objects
+  @param []{Object} splat objects to merge
+*/
 function extend( deep ) {
   var out, objs, i, obj, prop, val
 
@@ -25,5 +35,6 @@ function extend( deep ) {
 
   return out
 }
+
 
 module.exports = extend
