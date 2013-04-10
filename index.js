@@ -1,4 +1,3 @@
-
 /*
  * @exports extend
 */
@@ -37,4 +36,5 @@ function extend( deep ) {
 }
 
 
-module.exports = extend
+module.exports = extend;
+ 
